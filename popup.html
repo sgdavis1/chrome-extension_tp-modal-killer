@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    .name { font-style: italic; }
+    #result { font-weight: bold; }
+    #result .success { color: green; }
+    #result .failed { color: #ff1919; }
+    #message 
+    {
+      color: #ff1919; 
+      padding: 0;
+      background-color: #fff;
+    }
+    #message .failed
+    {
+      padding: 5px 20px;
+      background-color: #fdcbcb;
+    } 
+  </style>
+  <script src="thirdparty/jquery-3.2.1.slim.min.js"></script>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <p>Removing <span class="name">tp-modal</span>: <span id="result">...</span></p>
+  <div id="message"></div>
+</body>
+</html>
