@@ -8,6 +8,10 @@ try
   // Washington post
   $('div[class*="Modal"]').remove();
   $('html').removeClass('drawbridge-up');
+
+  // Zeus newsletter
+  $('[id*="ad-block"]').remove();
+  $('.ad-blocker-custom-blur').removeClass('ad-blocker-custom-blur');
 }
 catch (e)
 {
