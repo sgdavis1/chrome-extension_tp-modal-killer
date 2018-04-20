@@ -12,6 +12,10 @@ try
   // Zeus newsletter
   $('[id*="ad-block"]').remove();
   $('.ad-blocker-custom-blur').removeClass('ad-blocker-custom-blur');
+
+  // MDC dialog
+  $(".mdc-dialog").parent().remove();
+  $(".mdc-dialog-scroll-lock").removeClass("mdc-dialog-scroll-lock");
 }
 catch (e)
 {
