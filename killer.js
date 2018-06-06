@@ -16,6 +16,10 @@ try
   // MDC dialog
   $(".mdc-dialog").parent().remove();
   $(".mdc-dialog-scroll-lock").removeClass("mdc-dialog-scroll-lock");
+
+  // Wash Post
+  $(".pb-f-page-adblocker-feature").remove();
+  $("html").css({"overflow": "visible"});
 }
 catch (e)
 {
